@@ -1,0 +1,10 @@
+name: Sliders
+form: $/martinimultimedia/revolution/models/slider/fields.yaml
+modelClass: MartiniMultimedia\Revolution\Models\Slider
+defaultRedirect: martinimultimedia/revolution/sliders
+create:
+    redirect: 'martinimultimedia/revolution/sliders/update/:id'
+    redirectClose: martinimultimedia/revolution/sliders
+update:
+    redirect: martinimultimedia/revolution/sliders
+    redirectClose: martinimultimedia/revolution/sliders

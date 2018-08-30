@@ -1,0 +1,11 @@
+plugin:
+    name: 'martinimultimedia.revolution::lang.plugin.name'
+    description: 'martinimultimedia.revolution::lang.plugin.description'
+    author: 'Martini Multimedia s.a.s'
+    icon: oc-icon-image
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Sliders
+        url: martinimultimedia/revolution/sliders
+        icon: icon-image

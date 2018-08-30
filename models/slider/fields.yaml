@@ -1,0 +1,27 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    published:
+        label: 'Pubblicato?'
+        span: auto
+        type: switch
+    head:
+        label: 'Header styles and code'
+        size: large
+        language: css
+        span: full
+        type: codeeditor
+    code:
+        label: Code
+        size: large
+        language: html
+        span: full
+        type: codeeditor
+    script:
+        label: Script
+        size: large
+        language: javascript
+        span: full
+        type: codeeditor
